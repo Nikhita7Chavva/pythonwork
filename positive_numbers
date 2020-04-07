@@ -1,0 +1,8 @@
+#prints the positive numbers only
+liststr=input("enter the numbers")
+actual_list=liststr.split()
+for i in actual_list:
+    i=int(i)
+    if i>0:
+        print(i)
+    
